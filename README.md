@@ -1,3 +1,3 @@
 # mpdf-nodejs
 - npm install
-- node example.js
+- nodemon revenue.js
