@@ -39,7 +39,7 @@ const invoice = {
     sum_total: 11250
 
 };
-const path = 'revenue.pdf'
+const path = 'output.pdf'
 
 createRevenue(invoice, path);
 
@@ -49,7 +49,7 @@ function createRevenue(invoice, path) {
         margin: 50,
         info: {
             Title: 'ใบเสร็จรับเงิน',
-            Author: 'จิรายุ',
+            Author: 'kmochimaru',
             Keywords: 'pdf;javascript',
             CreationDate: now
         }
@@ -79,7 +79,7 @@ function generateHeader(doc) {
         .text("199/67 ม.4 ต.ท่าศาลา อ.เมือง จ.เชียงใหม่ 50000", 50, 82)
         .moveDown()
         .fontSize(10)
-        .text("เลขผู้เสียภาษี 0505554004330", 50, 94)
+        .text("เลขผู้เสียภาษี 1122334455667", 50, 94)
         .moveDown()
 }
 
